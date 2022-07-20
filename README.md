@@ -1,6 +1,8 @@
 # HatchBox CLI
 Unofficial bash script that makes SSH-ing into your server a bit easier. no user data is saved, this lives on your machine.
 
+![hatchbox-cli](https://user-images.githubusercontent.com/3083888/179966310-38f22445-3fc2-4d0e-841b-5a905d7e0448.jpg)
+
 ## Usage
 the CLI accepts 2 arguments, `app` (HatchBox project slug) and `command` (common server task).
 

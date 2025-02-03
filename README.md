@@ -35,5 +35,18 @@ source ~/.bash_profile
 # you're done!
 ```
 
+### fish shell
+```sh
+# step 1 - add custom fish shell script
+curl -o ~/.config/fish/functions/hatchbox.fish https://raw.githubusercontent.com/ryanckulp/hatchbox_cli/master/hatchbox.fish
+
+# step 2 - modify script to point to your HatchBox server
+nano ~/.config/fish/functions/hatchbox.fish
+# replace "xxx.xxx.xxx.xxx" inside the set address function with your HatchBox server IP, then save the file and exit (ctrl+x -> Y -> enter )
+
+#step 3 - done :) fish auto refreshes its functions so you shuold now be able to just run `hb <appname> <logs|console>`
+```
+
 **Windows**
-i don't know, [tell me how?](https://github.com/ryanckulp/hatchbox_cli/issues/new) :)
+If using WSL, just use the above install script from terminal. If not, what are you even doing?, [tell me how?](https://github.com/ryanckulp/hatchbox_cli/issues/new) :)
+
